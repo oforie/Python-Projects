@@ -1,0 +1,5 @@
+SELECT 
+FROM countries.name, languages.language, languages.percentage
+FROM countries
+JOIN countries.name = languages.percentage.country_id
+WHERE language = Sloven
