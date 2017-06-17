@@ -2,7 +2,7 @@
 
 FROM countries 
 
-JOIN languages l
+JOIN languages 
 ON countries.id=languages.country_id
 
 WHERE languages.language='Slovene'
